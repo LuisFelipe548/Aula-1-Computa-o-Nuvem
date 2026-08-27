@@ -2,3 +2,36 @@
 KILLERCODA - Atividade 26/8/26
 
 nessa aula usamos killercoda
+
+root@ubuntu:~$ mkdir atividade-nuvem
+root@ubuntu:~$ cd atividade-nuvem
+root@ubuntu:~/atividade-nuvem$ pwd
+/root/atividade-nuvem
+root@ubuntu:~/atividade-nuvem$ echo "Integrantes: Luis,Gleison">mensagem.txt
+root@ubuntu:~/atividade-nuvem$ echo"Disciplina:Computacao em nuvem">>mensagem.txt
+echoDisciplina:Computacao em nuvem: command not found
+root@ubuntu:~/atividade-nuvem$ echo"Disciplina computacao em nuvem">>.txt
+echoDisciplina computacao em nuvem: command not found
+root@ubuntu:~/atividade-nuvem$ ls
+mensagem.txt
+root@ubuntu:~/atividade-nuvem$ echo "Disciplina computacao em nuvem">>mensagem.txt
+root@ubuntu:~/atividade-nuvem$ cat.txt
+cat.txt: command not found
+root@ubuntu:~/atividade-nuvem$ cat.mensagem.txt
+cat.mensagem.txt: command not found
+root@ubuntu:~/atividade-nuvem$ cat mensagem.txt
+Integrantes: Luis,Gleison
+Disciplina computacao em nuvem
+root@ubuntu:~/atividade-nuvem$ echo "Ambiente Utilizado:Killrcoda">>mensagem.txt
+root@ubuntu:~/atividade-nuvem$ cat mensagem.txt
+Integrantes: Luis,Gleison
+Disciplina computacao em nuvem
+Ambiente Utilizado:Killrcoda
+root@ubuntu:~/atividade-nuvem$ cat mensagem.txt
+Integrantes: Luis,Gleison
+Disciplina computacao em nuvem
+Ambiente Utilizado:Killrcoda
+root@ubuntu:~/atividade-nuvem$ uname -a
+Linux ubuntu 6.8.0-138-generic #138-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 31 22:41:49 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+root@ubuntu:~/atividade-nuvem$ hostname
+ubuntu
